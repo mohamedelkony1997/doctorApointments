@@ -1,3 +1,4 @@
+import 'package:doc/Features/onBoarding/widgets/doc_image_and_text.dart';
 import 'package:doc/core/Theming/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,7 +14,6 @@ class DocLogoAndName extends StatelessWidget {
       children: [
         SvgPicture.asset(
           "assets/svgs/Frame.svg",
-          
         ),
         SizedBox(width: 10.h),
         Text(

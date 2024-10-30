@@ -1,6 +1,6 @@
 # doctor app
 
-A new Flutter project Doctor app for reserving apiontmnets for people with doctors.
+A new Flutter project.
 
 ## Getting Started
 
