@@ -14,7 +14,6 @@ class DocApp extends StatelessWidget {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       splitScreenMode: true,
-      // Use builder only if you need to use library outside ScreenUtilInit context
       child: MaterialApp(
         title: "Doc APP",
         theme: ThemeData(
