@@ -1,4 +1,3 @@
-import 'package:doc/Features/onBoarding/widgets/doc_image_and_text.dart';
 import 'package:doc/core/Theming/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -17,7 +16,7 @@ class DocLogoAndName extends StatelessWidget {
         ),
         SizedBox(width: 10.h),
 
-        
+
         Text(
           "Docdoc",
           style:TextStyles.font24Black700Weight,
