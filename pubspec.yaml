@@ -71,7 +71,10 @@ flutter_native_splash:
   android_12:
   android: true
   ios: true
-  web: false
+  
+android_12:
+  color: "#ffffff"
+  image: "assets/images/Splash Screen.png"
 dev_dependencies:
   flutter_test:
     sdk: flutter
