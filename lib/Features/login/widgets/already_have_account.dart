@@ -22,7 +22,7 @@ class DontHaveAccountText extends StatelessWidget {
             style: TextStyles.font13BlueSemiBold,
             recognizer: TapGestureRecognizer()
               ..onTap = () {
-                context.pushReplacementNamed(Routes.signup);
+                context.pushReplacementNamed(Routes.signUpScreen);
               },
           ),
         ],

@@ -34,12 +34,14 @@ dependencies:
   flutter_bloc: ^8.1.6
   
   #Code generation for immutable classes that has a simple syntax/API without compromising on the features
-  freezed: ^2.5.7
+  freezed: ^2.5.2
   # The following adds the Cupertino Icons font to your application.
   #Annotations for the freezed code-generator. This package does nothing without freezed too.
   freezed_annotation: ^2.4.4
   #Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App"
   get_it: ^8.0.0
+  #json_serializable_ioc_generator simplifies the registration of toJson and fromJson methods for models annotated with @JsonSerializable. This package works in conjunction with json_serializable_ioc to automatically generate the registration method.
+  json_serializable: ^6.8.0
   #Classes and helper functions that support JSON code generation via the `json_serializable` package.
   json_annotation: ^4.9.0
   #A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.
@@ -61,6 +63,7 @@ dependencies:
   shared_preferences: ^2.3.2
   flutter_screenutil: ^5.9.3
   # Use with the CupertinoIcons class for iOS style icons.
+  build_runner: ^2.4.13
   
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
