@@ -1,4 +1,3 @@
-import 'package:doc/Features/login/data/models/login_request_body.dart';
 import 'package:doc/Features/login/logic/cubit/login_cubit.dart';
 import 'package:doc/Features/login/widgets/already_have_account.dart';
 import 'package:doc/Features/login/widgets/email_and_password.dart';
