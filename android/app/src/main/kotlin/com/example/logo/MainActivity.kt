@@ -1,4 +1,4 @@
-package com.example.doc
+package com.example.logo
 
 import io.flutter.embedding.android.FlutterActivity
 
