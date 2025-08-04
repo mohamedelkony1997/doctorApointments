@@ -17,7 +17,7 @@ class OnboardingScreen extends StatelessWidget {
         padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
         child: Column(
           children: [
-            DocLogoAndName(),
+            const DocLogoAndName(),
             SizedBox(
               height: 30.h,
             ),
@@ -34,7 +34,7 @@ class OnboardingScreen extends StatelessWidget {
                   SizedBox(
                     height: 30.h,
                   ),
-                  GetStartedButton(),
+                  const GetStartedButton(),
                 ],
               ),
             )
